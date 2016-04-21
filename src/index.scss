@@ -1,0 +1,36 @@
+// ====== VARIABLES ======
+$font-size-1: 22px;
+
+
+// ====== RULES ======
+body {
+  padding: 20px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+#pollform {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  & > input {
+    margin-bottom: 15px;
+    display: block;
+    font-size: $font-size-1;
+    width: 400px;
+    &.titleinput {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+#createbutton {
+  font-size: $font-size-1;
+  border-radius: 5px;
+  color: white;
+  background-color: #1e90ff;
+  &:hover {
+    background-color: #0077ea;
+  }
+}
