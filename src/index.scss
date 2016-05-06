@@ -12,12 +12,12 @@ h1 {
 }
 
 #pollform {
-  margin-top: 35px;
   margin-bottom: 50px;
-  & > input {
-    margin-bottom: 15px;
+  margin-top: 35px;
+  input {
     display: block;
     font-size: $font-size-1;
+    margin-bottom: 15px;
     width: 400px;
     &.titleinput {
       margin-bottom: 35px;
@@ -26,6 +26,7 @@ h1 {
 }
 
 #createbutton {
+  margin-top: 30px;
   font-size: $font-size-1;
   border-radius: 5px;
   color: white;
